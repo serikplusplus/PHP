@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main_h" >Магазин "Овощи – фрукты"</h1>
+    <h2 class="second_h" >Список постоянных клиентов</h2>
+    <form name="Form1" id="Form12" action="main1.php" method="post" onsubmit="return saveFormResults(Form12)">
+        <label >
+            Фамилия, имя и отчество нового покупателя
+            <p class="lp">
+                <input type="text"  placeholder="Васильков Иван Иванович" id="name" name="name">
+                <button id="newuser" type="button" onclick="return pushForm(Form12)">Добавить в список</button>
+            </p>
+        </label>
+        <h3>Список покупателей</h3>
+        <select name="list" id="listu" size="10">
+            <option >----Фамилия Имя Отчество-----</option>
+        </select>
+        <input type="hidden" name="ServerNameList" value="" >
+        <button type="submit" >Отправить</button>
+        <button type="reset" id="reset" onclick="return clearForm(Form12)">Очистить</button>
+    </form>
+
+    <script src="main1.js"></script>
+</body>
+</html>

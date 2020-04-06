@@ -1,0 +1,46 @@
+h1{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 span{
+    font-size: 40px;
+}
+.form{
+    width: 500px;
+    margin: 25px auto;
+}
+label{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+input{
+    padding: 5px;
+}
+select{
+    padding: 10px 50px;
+    font-size: 15px;
+}
+select option{
+    font-size: 20px;
+}
+legend{
+    font-size: 20px;
+}
+fieldset{
+    margin-bottom: 20px;
+}
+.button{
+    font-size: 15px;
+    padding: 15px;
+    margin: 0 40px;
+    background-color: teal;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}

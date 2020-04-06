@@ -1,0 +1,20 @@
+.main_h,
+.second_h,
+#Form12
+{
+    text-align: center;
+}
+#name{
+    padding: 10px;
+}
+button
+{
+    padding: 10px;
+    cursor: pointer;
+}
+#listu{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
